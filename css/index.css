@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+
+.container {
+    width: 75vw;
+    margin-top: 20vh;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.searchBox {
+    min-height: 10vh;
+    padding: 1vw;
+    border: 0.3vw solid gray;
+    border-radius: 1vw;
+    align-content: center;
+    margin-top: 5vh;
+}
+
+.searchBox .inputBox select option {
+    text-align: center;
+}
+
+.searchBox .resultBox {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+}
+.searchBox .resultBox .resultAccount {
+    margin-top: 1vh;
+}
+.searchBox .resultBox .resultDesc {
+    margin-top: 1vh;
+}
+.searchBox .resultBox #returnButton {
+    margin: auto;
+    display: inline-block;
+    margin-top: 2vh;
+}
+
+.infoBox {
+    padding: 1vw;
+    margin-top: 5vh;
+}
