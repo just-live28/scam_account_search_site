@@ -123,6 +123,7 @@ $("#searchButton").on("click", function () {
         $(".resultDesc").css("color", "red");
         $(".resultDesc").html(`해당 계좌는 자유적금계좌입니다.<br>지금 즉시 거래를 중단하세요!`);
     } else {
+        $(".resultDesc").css("color", "black");
         $(".resultDesc").text(`해당 계좌는 자유적금계좌가 아닙니다.`);
     }
     $(".inputBox").hide();
