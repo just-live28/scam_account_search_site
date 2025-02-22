@@ -2,13 +2,9 @@
     box-sizing: border-box;
 }
 
-div {
-    /* border: 1px solid black; */
-}
-
 .container {
-    width: 75vw;
-    margin-top: 20vh;
+    width: 90vw;
+    margin-top: 10vh;
 }
 
 .container h1 {
